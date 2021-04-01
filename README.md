@@ -3,6 +3,13 @@ RPCC is a python&php program that allow you to control your pc using shortcuts
 
 If You Want to donate go to [PayPal](https://www.paypal.me/soldeveloperm)
 
+OS Support List:
+Windows Support (✅)
+
+Mac Support (❌)
+
+Linux Support (❌)
+
 # How To Setup It?
 First You Need to have php & python in Your PATH variable
 
@@ -43,7 +50,7 @@ When You Try To Open the website you should put this url:
 
 http://\[the-ip-you-choosed-in-the-run\]/index.php?run=\[launching point\]
 
-the lanuching point will run the program/app you wanted in windows remotely !
+the lanuching point will run the program/app you want in windows remotely !
 
 the launching point is the program path thats stored in load.key you need to change it or keep it as i made it
 
