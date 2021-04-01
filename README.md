@@ -59,3 +59,5 @@ load.key should look like this
 {"chrome": "C:\\\\Program Files (x86)\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe", "mems": "C:\\\\Program Files (x86)\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe"}
 
 change everything but make sure the json is working
+
+# This Project Is Under GPLv3 License 
