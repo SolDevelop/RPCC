@@ -13,6 +13,8 @@ Mac Support (❌)
 
 Linux Support (❌)
 
+BSD Support (❌)
+
 # How To Setup It?
 First You Need to have php & python in Your PATH variable
 
