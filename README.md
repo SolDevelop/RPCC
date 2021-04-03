@@ -67,6 +67,9 @@ load.key should look like this
 
 change everything but make sure the json is working
 
+# Credits
+Sol aka Soldevelop & Soldeveloper
+
 # the main subreddit for this program is r/RPCC
 
 # This Project Is Under GPLv3 License 
