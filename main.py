@@ -42,7 +42,7 @@ if oss == "Windows":
             print("You Already Setuped it")
        elif sys.argv[1] == "-run":
 
-           # sg.Window().read()
+           
            layout = [[sg.Text('Please Enter The IP that the Server will be running on')],
     [sg.Text('IP Address:', size=(15, 1)), sg.InputText()],
     [sg.Submit(), sg.Cancel()],[sg.Text('If You Want To Donate! Go To https://www.paypal.me/soldeveloperm')]]
