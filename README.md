@@ -15,6 +15,8 @@ Linux Support (❌)
 
 BSD Support (❌)
 
+Jailbroken IDevices Support (❌)
+
 # How To Setup It?
 First You Need to have php & python in Your PATH variable
 
