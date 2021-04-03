@@ -48,11 +48,11 @@ if oss == "Windows":
     [sg.Submit(), sg.Cancel()],[sg.Text('If You Want To Donate! Go To https://www.paypal.me/soldeveloperm')]]
            window = sg.Window(title="RPCC", layout=layout, margins=(100, 50))
 
-           # Create an event loop
+           
            while True:
                event, values = window.read()
-               # End program if user closes window or
-               # presses the OK button
+               
+
                if event == "Cancel" or event == sg.WIN_CLOSED:
                    window.close()
                    exit()
