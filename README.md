@@ -1,7 +1,7 @@
 # what is RPCC
 RPCC is a python&php program that allow you to control your pc using shortcuts
 # Updates 
-MacOS load.key support is done!
+MacOS Is Done!!
 -
 If You Want to donate go to [PayPal](https://www.paypal.me/soldeveloperm)
 
@@ -9,7 +9,7 @@ OS Support List:
 
 Windows Support (✅)
 
-Mac Support (❌)
+Mac Support (✅)
 
 Linux Support (❌)
 
@@ -32,7 +32,7 @@ Next Open The load.key file change or put things example:
 
 you can put firefox or  anything but we will be putting firefox to teach you! then it will be like this
 
-{"chrome": "C:\\\\Program Files (x86)\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe", "mems": "C:\\\\Program Files (x86)\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe", "firefox": " C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\"}
+{"Windows": [{"chrome": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", "mems": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"}, "firefox": " C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\firefox.exe"],"Darwin": [{"safari": "//Applications//Safari.app"}]}
 
 Next Type in already opened cmd ( python [main.py](https://main.py) \-run ) it will ask you about the ip that the server will be running on You Can Choose from [127.1.1.0](https://127.1.1.0) or your local ip \[Recommended\] or your internet ip after that the server will be running! (the server will not be closed after you close cmd you need to open task manager then kill php.exe yourself)
 
@@ -63,8 +63,7 @@ the launching point is the program path thats stored in load.key you need to cha
 
 load.key should look like this
 
-{"chrome": "C:\\\\Program Files (x86)\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe", "mems": "C:\\\\Program Files (x86)\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe"}
-
+{"Windows": [{"chrome": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", "mems": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"}],"Darwin": [{"safari": "//Applications//Safari.app"}]}
 change everything but make sure the json is working
 
 # Credits
