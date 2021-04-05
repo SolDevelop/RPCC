@@ -1,7 +1,7 @@
 # what is RPCC
 RPCC is a python&php program that allow you to control your pc using shortcuts
 # Updates 
-MacOS Is Done!!
+Linux load.key is about to be done
 -
 If You Want to donate go to [PayPal](https://www.paypal.me/soldeveloperm)
 
