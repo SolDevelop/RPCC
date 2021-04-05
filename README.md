@@ -3,6 +3,9 @@ RPCC is a python&php program that allow you to control your pc using shortcuts
 # Updates 
 Linux load.key is about to be done
 -
+# Coming Soon
+You Can Run the selected Commands in your Windows soon
+-
 If You Want to donate go to [PayPal](https://www.paypal.me/soldeveloperm)
 
 OS Support List:
