@@ -45,7 +45,7 @@ And Its Done!
 
 Demo Video:
 
-[Click to watch](https://streamable.com/nqx14g)
+[Click to watch](https://youtu.be/Cv01ASTEgQk)
 
 
 &#x200B;
