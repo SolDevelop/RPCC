@@ -26,7 +26,7 @@ First You Need to have php & python in Your PATH variable
 
 Next Clone RPCC next Unzip RPCC
 
-Next Open cmd then type this to install the requirements ( pip install requirements.txt )
+Next Open cmd then type this to install the requirements ( pip install -r requirements.txt )
 
 Next type in the already opened cmd ( python [main.py](https://main.py) \-setup ) then wait 5 to 10 seconds
 
