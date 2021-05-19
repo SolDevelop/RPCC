@@ -15,12 +15,15 @@ Windows Support (✅)
 
 Mac Support (✅)
 
-Linux Support (❌)
+Linux Support (✅)
 
 BSD Support (❌)
 
 Jailbroken IDevices Support (❌)
 
+# New Features
+Screenshot Support for windows
+Linux Support
 # How To Setup It?
 First You Need to have php & python in Your PATH variable
 
