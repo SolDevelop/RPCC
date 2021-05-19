@@ -27,6 +27,8 @@ Screenshot Support for windows
 Linux Support
 
 RUN COMMANDS FOR WINDOWS Using ?command="the command that you want"
+
+Screenshot Shortcut: [Click here]("https://www.icloud.com/shortcuts/3f4992bcf485488cba010d4a0fd1f8a3")
 # How To Setup It?
 First You Need to have php & python in Your PATH variable
 
@@ -54,6 +56,9 @@ Demo Video:
 
 [Click to watch](https://youtu.be/Cv01ASTEgQk)
 
+Screenshot Usage Video:
+
+[Click Here to Watch](https://youtu.be/x-SCCDVFTz8)
 
 &#x200B;
 
