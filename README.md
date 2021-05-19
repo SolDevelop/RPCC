@@ -25,6 +25,8 @@ Jailbroken IDevices Support (❌)
 Screenshot Support for windows
 
 Linux Support
+
+RUN COMMANDS FOR WINDOWS Using ?command="the command that you want"
 # How To Setup It?
 First You Need to have php & python in Your PATH variable
 
