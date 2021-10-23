@@ -125,7 +125,7 @@ if oss == "Windows":
                  else:
                    print("Sorry But You Are Trying To Use Unallowed Command")
                else:
-                   print("The Server Isnt Running?, You Seems sus!")
+                   print("The Server Isnt Running?, You Seem sus!")
 
 
 
@@ -208,7 +208,7 @@ elif oss == "Darwin":
                   else:
                      print("Sorry But You Are Trying To Use Unallowed Command")
               else:
-                  print("The Server Isnt Running?, You Seems sus!")
+                  print("The Server Isnt Running?, You Seem sus!")
 elif oss == "Linux":
          if sys.argv[1] == "-setup":
              if not file.exists():
@@ -269,4 +269,4 @@ elif oss == "Linux":
                      os.system(Run)
                      print("Done! " + WTO + " Is Running!")
              else:
-                 print("The Server Isnt Running?, You Seems sus!")
+                 print("The Server Isnt Running?, You Seem sus!")
