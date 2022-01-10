@@ -28,7 +28,7 @@ Linux Support
 RUN COMMANDS FOR WINDOWS Using ?command="the command that you want"
 
 Screenshot Shortcut: [Click here]("https://www.icloud.com/shortcuts/3f4992bcf485488cba010d4a0fd1f8a3")
-# How To Setup It?
+# How To Setup RPCC?
 First You Need to have php & python in Your PATH variable
 
 Next Clone RPCC next Unzip RPCC
@@ -61,7 +61,7 @@ Screenshot Usage Video:
 
 &#x200B;
 
-How It Work (IMPORTANT):
+How does It Work (IMPORTANT):
 
 First after you setup it it will open the 80 port
 
