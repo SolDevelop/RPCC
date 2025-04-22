@@ -28,7 +28,6 @@ if oss == "Windows":
        if sys.argv[1] == "-setup":
          if not file.exists():
            if is_admin():
-                print("If You Want To Donate! Go To https://www.paypal.me/soldeveloperm")
                 os.system("netsh advfirewall firewall add rule name=\"SHORTCUT 80\" dir=in action=allow protocol=TCP localport=80")
 
                 E = open("setup.key", "w+")
@@ -45,7 +44,7 @@ if oss == "Windows":
 
            layout = [[sg.Text('Please Enter The IP that the Server will be running on')],
     [sg.Text('IP Address:', size=(15, 1)), sg.InputText()],
-    [sg.Submit(), sg.Cancel()],[sg.Text('If You Want To Donate! Go To https://www.paypal.me/soldeveloperm')]]
+    [sg.Submit(), sg.Cancel()],[sg.Text('')]]
            window = sg.Window(title="RPCC", layout=layout, margins=(100, 50))
 
 
@@ -133,7 +132,6 @@ if oss == "Windows":
 elif oss == "Darwin":
          if sys.argv[1] == "-setup":
              if not file.exists():
-                 print("If You Want To Donate! Go To https://www.paypal.me/soldeveloperm")
                  os.system("sudo nc -l 80")
 
                  E = open("setup.key", "w+")
@@ -141,7 +139,7 @@ elif oss == "Darwin":
                  E.close()
                  sys.exit
              else:
-                 print("You Already Setuped it")
+                 print("You Already Setup it")
          elif sys.argv[1] == "-run":
 
              layout = [[sg.Text('Please Enter The IP that the Server will be running on')],
@@ -190,7 +188,7 @@ elif oss == "Darwin":
                        os.system("open " + Run)
                        print("Done! " + WTO + " Is Running!")
                else:
-                 print("The Server Isnt Running?, You Seems sus!")
+                 print("The Server Isnt Running!")
              else:
               run = open("run.key", "r")
               if run.readline() == "R":
@@ -208,7 +206,7 @@ elif oss == "Darwin":
                   else:
                      print("Sorry But You Are Trying To Use Unallowed Command")
               else:
-                  print("The Server Isnt Running?, You Seem sus!")
+                  print("The Server Isnt Running!")
 elif oss == "Linux":
          if sys.argv[1] == "-setup":
              if not file.exists():
@@ -220,13 +218,13 @@ elif oss == "Linux":
                  E.close()
                  sys.exit
              else:
-                 print("You Already Setuped it")
+                 print("You Already Setup it")
          elif sys.argv[1] == "-run":
 
              layout = [[sg.Text('Please Enter The IP that the Server will be running on')],
                        [sg.Text('IP Address:', size=(15, 1)), sg.InputText()],
                        [sg.Submit(), sg.Cancel()],
-                       [sg.Text('If You Want To Donate! Go To https://www.paypal.me/soldeveloperm')]]
+                       [sg.Text('')]]
              window = sg.Window(title="RPCC", layout=layout, margins=(100, 50))
 
              while True:
@@ -269,4 +267,4 @@ elif oss == "Linux":
                      os.system(Run)
                      print("Done! " + WTO + " Is Running!")
              else:
-                 print("The Server Isnt Running?, You Seem sus!")
+                 print("The Server Isnt Running!")
