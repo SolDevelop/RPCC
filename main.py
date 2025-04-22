@@ -38,7 +38,7 @@ if oss == "Windows":
 
               ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, " ".join(sys.argv), None, 1)
          else:
-            print("You Already Setuped it")
+            print("You Already Setup it")
        elif sys.argv[1] == "-run":
 
 
@@ -105,7 +105,7 @@ if oss == "Windows":
                    subprocess.call([Run])
                    print("Done! " + WTO  + " Is Running!")
              else:
-               print("The Server Isnt Running?, You Seems sus!")
+               print("The Server Isnt Running!")
 
            else:
                run = open("run.key", "r")
@@ -124,7 +124,7 @@ if oss == "Windows":
                  else:
                    print("Sorry But You Are Trying To Use Unallowed Command")
                else:
-                   print("The Server Isnt Running?, You Seem sus!")
+                   print("The Server Isnt Running!")
 
 
 
@@ -145,7 +145,7 @@ elif oss == "Darwin":
              layout = [[sg.Text('Please Enter The IP that the Server will be running on')],
                        [sg.Text('IP Address:', size=(15, 1)), sg.InputText()],
                        [sg.Submit(), sg.Cancel()],
-                       [sg.Text('If You Want To Donate! Go To https://www.paypal.me/soldeveloperm')]]
+                       [sg.Text('')]]
              window = sg.Window(title="RPCC", layout=layout, margins=(100, 50))
              while True:
                  event, values = window.read()
@@ -210,7 +210,7 @@ elif oss == "Darwin":
 elif oss == "Linux":
          if sys.argv[1] == "-setup":
              if not file.exists():
-                 print("If You Want To Donate! Go To https://www.paypal.me/soldeveloperm")
+                 print("")
                  os.system("sudo firewall-cmd --add-port=80/tcp")
 
                  E = open("setup.key", "w+")
